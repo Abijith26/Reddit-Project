@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../components/Logo";
 import Options from "../components/Options";
 import SearchField from "../components/SearchField";
+import UserMenu from "../components/UserMenu";
 
 export default function NavBar() {
   return (
@@ -9,6 +10,7 @@ export default function NavBar() {
       <Logo />
       <Options />
       <SearchField />
+      <UserMenu />
     </div>
   );
 }
