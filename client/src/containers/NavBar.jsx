@@ -6,7 +6,7 @@ import UserMenu from "../components/UserMenu";
 
 export default function NavBar() {
   return (
-    <div className="flex gap-4 items-center px-2">
+    <div className="flex gap-4 justify-around  bg-pink-50">
       <Logo />
       <Options />
       <SearchField />

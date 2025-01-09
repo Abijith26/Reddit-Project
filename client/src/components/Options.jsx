@@ -5,7 +5,7 @@ import { MdGraphicEq } from "react-icons/md";
 
 export default function Options() {
   return (
-    <div className="flex items-center gap-4 text-bold text-xl ">
+    <div className="flex items-center gap-8 text-bold text-xl ">
       {/* Home Icon */}
       <div className="flex items-center gap-2 hover:cursor-pointer">
         <HiOutlineHome />
